@@ -1,8 +1,11 @@
 
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import API from "../api/axios";
 
 function Register() {
+    const navigate = useNavigate();
+
     const [formData, setFormData] = useState({
         full_name: "",
         email: "",
@@ -38,12 +41,17 @@ function Register() {
 
             console.log(response.data);
 
+            // Clear the form
             setFormData({
                 full_name: "",
                 email: "",
                 phone: "",
                 password: "",
             });
+
+            // Automatically open the Login page
+            navigate("/login");
+
         } catch (error) {
             console.log(error.response?.data);
 
@@ -110,4 +118,3 @@ function Register() {
 }
 
 export default Register;
-
