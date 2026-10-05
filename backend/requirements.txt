@@ -15,7 +15,7 @@ h11==0.16.0; python_version >= '3.8'
 idna==3.20; python_version >= '3.9'
 opentelemetry-api==1.45.0; python_version >= '3.10'
 passlib==1.7.4
-bcrypt
+bcrypt==4.0.1
 psycopg[binary]==3.3.6; python_version >= '3.10'
 psycopg-binary==3.3.6
 psycopg2-binary==2.9.13; python_version >= '3.10'
