@@ -32,7 +32,7 @@ function VisitorTracker() {
                 }
 
                 const response = await fetch(
-                    "http://127.0.0.1:8000/visitors/track",
+                    "https://loan-app-dzbd.onrender.com/visitors/track",
                     {
                         method: "POST",
                         headers: {
