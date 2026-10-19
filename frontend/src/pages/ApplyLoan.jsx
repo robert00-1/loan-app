@@ -412,7 +412,7 @@ function ApplyLoan() {
                     </h3>
 
                     <p className="text-gray-600 mb-4">
-                        Pay KSh 1 registration fee before
+                        Pay KSh 5 registration fee before
                         submitting your loan application.
                     </p>
 
@@ -433,7 +433,7 @@ function ApplyLoan() {
                             ? "Sending STK Push..."
                             : registrationPaid
                             ? "Registration Fee Paid ✓"
-                            : "Pay KSh 150 Registration Fee"}
+                            : "Pay KSh 5 Registration Fee"}
                     </button>
 
                     {/* Check Payment Button */}

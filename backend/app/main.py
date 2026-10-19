@@ -185,7 +185,7 @@ def apply_loan(
     if not db_user.registration_fee_paid:
         raise HTTPException(
             status_code=400,
-            detail="Please pay the KSh 150 registration fee first"
+            detail="Please pay the KSh 5 registration fee first"
         )
 
     if db_user.credit_score < 40:
@@ -950,7 +950,7 @@ def pay_registration_fee(
     print("USER:", user.full_name)
     print("PHONE:", user.phone)
 
-    response = stk_push(user.phone, 1)
+    response = stk_push(user.phone, 5)
 
     print("STK RESPONSE:", response)
 
