@@ -412,7 +412,7 @@ function ApplyLoan() {
                     </h3>
 
                     <p className="text-gray-600 mb-4">
-                        Pay KSh 150 registration fee before
+                        Pay KSh 1 registration fee before
                         submitting your loan application.
                     </p>
 
