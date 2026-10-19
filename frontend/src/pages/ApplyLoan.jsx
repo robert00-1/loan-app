@@ -184,7 +184,7 @@ function ApplyLoan() {
         if (!registrationPaid) {
 
             alert(
-                "Please pay the KSh 150 registration fee before submitting your loan application."
+                "Please pay the KSh 5 registration fee before submitting your loan application."
             );
 
             return;
