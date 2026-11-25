@@ -113,4 +113,13 @@ Full-Stack Software Developer
 
 ---
 
+## 📸 Application Screenshots
+
+### Home Page
+![Loan App Home Page](home.png)
+
+### Dashboard
+![Loan App Dashboard](dashboard.png)
+
+
 Developed as a practical full-stack software engineering project.
